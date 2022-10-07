@@ -3,7 +3,7 @@ import NavLi from "./NavLi/NavLi";
 import DropDownLI from "./NavLi/DropDown/DropDownLI";
 import Image from "next/image";
 import Link from "next/link";
-import Button from "../../shared/Button";
+import Button from "../../components/shared/Button";
 
 const Navbar = () => {
   const [show, setShow] = useState("");
