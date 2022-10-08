@@ -3,7 +3,7 @@ import NavLi from "./NavLi/NavLi";
 import DropDownLI from "./NavLi/DropDown/DropDownLI";
 import Image from "next/image";
 import Link from "next/link";
-import Button from "../../components/shared/Button";
+import ButtonC from "../../components/shared/ButtonC";
 
 const Navbar = () => {
   const [show, setShow] = useState("");
@@ -51,7 +51,7 @@ const Navbar = () => {
                 <DropDownLI text="CONTACT US" />
                 {/* Drop Down end */}
                 {/* Button */}
-                <Button title="GET STARTED" text="12px" />
+                <ButtonC title="GET STARTED" text="12px" />
               </ul>
             </div>
           </div>
