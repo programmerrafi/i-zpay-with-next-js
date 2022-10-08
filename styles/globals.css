@@ -52,23 +52,19 @@ a {
   color: #534d9f;
 }
 /* ===============Logo slide======================= */
-.logo_slide {
+/* .logo_slide {
   background-color: #151518;
   padding: 80px 0;
-}
+} */
 .logo_slide .slick-slide {
   display: flex !important;
   align-items: center !important;
   justify-content: center !important;
 }
-.slide_logo_img a {
-  outline: none;
-  border: none;
-}
 @media only screen and (max-width: 991px) {
-  .logo_slide {
+  /* .logo_slide {
     padding: 7rem 0;
-  }
+  } */
 }
 
 /* ===============Logo Slide end======================= */

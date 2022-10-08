@@ -1,6 +1,9 @@
 import React from "react";
 import Image from "next/image";
 import ManageCart from "../cart/ManageCart";
+import { BiSupport } from "react-icons/bi";
+import { GoLock } from "react-icons/go";
+import { GiShakingHands } from "react-icons/gi";
 
 function ManageSection() {
   return (
@@ -23,15 +26,18 @@ function ManageSection() {
               <br /> Your Hand
             </h1>
             <p className="text-sm text-whiteGray">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-              tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. Lorem
-              ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus,
-              luctus nec ullamcorper mattis, pulvinar dapibus leo.
+              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+              quae ab illo inventore veritatis et quasi architecto beatae vitae
+              dicta sunt explicabo.
             </p>
             {/* Cart */}
-            <ManageCart title="User Friendly" />
-            <ManageCart title="User Friendly" />
-            <ManageCart title="User Friendly" />
+            <ManageCart
+              title="User Friendly"
+              icon={<GiShakingHands size={40} />}
+            />
+            <ManageCart title="Best Support" icon={<BiSupport size={40} />} />
+            <ManageCart title="Secure" icon={<GoLock size={40} />} />
           </div>
         </div>
       </div>

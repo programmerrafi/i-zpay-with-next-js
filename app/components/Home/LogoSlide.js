@@ -57,15 +57,15 @@ const LogoSlide = () => {
     ],
   };
   return (
-    <section className="logo_slide">
+    <section className="logo_slide bg-bgMain p-20">
       <div className="container">
         <Slider {...settings}>
           {imgs.map((img) => {
             return (
               <div key={img.id} className="slide_logo_img">
                 <Link href="#">
-                  <a href="/">
-                    <img src={img.url} alt="logo" className="h-14" />
+                  <a href="/" className="outline-none border-none">
+                    <img src={img.url} alt="logo" className="h-12" />
                   </a>
                 </Link>
               </div>
