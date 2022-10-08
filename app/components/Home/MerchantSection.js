@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 import ButtonC from "../shared/ButtonC";
 import { setBackgroundImage } from "../utils/helpers";
 
