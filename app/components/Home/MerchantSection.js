@@ -6,7 +6,7 @@ function MerchantSection() {
   return (
     <section className="bg-bgMain pb-20 pt-16">
       <div className="container">
-        <div className="flex md:flex-nowrap flex-wrap gap-24 container">
+        <div className="flex md:flex-nowrap flex-wrap gap-32 container">
           {/* Left Side */}
           <div className="md:w-[40%] flex justify-center flex-col">
             <h1 className="text-[45px] font-semibold text-colorWhite mb-8 leading-tight">
@@ -24,7 +24,7 @@ function MerchantSection() {
             </div>
           </div>
           {/* Right side */}
-          <div className="w-[80%] relative mx-auto md:mx-0 md:w-[55%]">
+          <div className="w-[80%] relative mx-auto md:mx-0 md:w-[45%]">
             <div className="absolute -left-12 bottom-0 z-10 shadowBox">
               <img
                 src="/images/Last-Costslast-cost.png"
@@ -34,7 +34,7 @@ function MerchantSection() {
             <div
               className="w-full h-[560px]"
               style={setBackgroundImage("images/shopping-girl-home.jpg", {
-                backgroundPosition: "bottom center",
+                backgroundPosition: "center center",
                 backgroundColor: "#f3f3f3",
                 backgroundSize: "cover",
               })}
