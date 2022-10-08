@@ -11,7 +11,8 @@ const LogoSlide = () => {
     autoplay: true,
     speed: 1000,
     slidesToScroll: 1,
-    slidesToShow: 5,
+    slidesToShow: 4,
+    arrows: false,
     responsive: [
       {
         breakpoint: 1200,
@@ -64,7 +65,7 @@ const LogoSlide = () => {
               <div key={img.id} className="slide_logo_img">
                 <Link href="#">
                   <a href="/">
-                    <img src={img.url} alt="logo" />
+                    <img src={img.url} alt="logo" className="h-14" />
                   </a>
                 </Link>
               </div>

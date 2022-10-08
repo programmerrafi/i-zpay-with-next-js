@@ -17,6 +17,6 @@ export const imgs = [
   },
   {
     id: 5,
-    url: "starbank-logo.png",
+    url: "images/starbank-logo.png",
   },
 ];
