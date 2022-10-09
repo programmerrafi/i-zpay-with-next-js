@@ -57,6 +57,18 @@ a {
   background-size: cover;
   background-position: center center;
 }
+/* TestMonial BG */
+.test-monial {
+  background-image: url("/images/testi-bg.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+@media screen and (max-width: 900px) {
+  .test-monial {
+    background-size: cover;
+  }
+}
 
 /* Wrapper container */
 .container {
