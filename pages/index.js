@@ -4,6 +4,7 @@ import MerchantSection from "../app/components/Home/MerchantSection";
 import LogoSlide from "../app/components/Home/LogoSlide";
 import Services from "../app/components/Home/Services";
 import Testmonial from "../app/components/Home/Testmonial";
+import Payment from "../app/components/Home/Payment";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <MerchantSection />
       <Services />
       <Testmonial />
+      <Payment />
     </>
   );
 }
