@@ -46,6 +46,15 @@ a {
   opacity: 1;
   transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
 }
+/* service-bg  */
+.about-bg {
+  background-image: url(/images/halftone-subs-white.png);
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-size: contain;
+  opacity: 0.2;
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
 /* card-bg */
 .card-bg {
   background-color: transparent;

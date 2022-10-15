@@ -5,6 +5,7 @@ import LogoSlide from "../app/components/Home/LogoSlide";
 import Services from "../app/components/Home/Services";
 import Testmonial from "../app/components/Home/Testmonial";
 import Payment from "../app/components/Home/Payment";
+import About from "../app/components/Home/About";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Services />
       <Testmonial />
       <Payment />
+      <About />
     </>
   );
 }
