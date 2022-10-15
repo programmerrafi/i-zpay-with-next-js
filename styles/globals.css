@@ -24,6 +24,11 @@ a {
   box-sizing: border-box;
 }
 
+/* Wrapper container */
+.container {
+  @apply !max-w-screen-2xl mx-auto px-5;
+}
+
 /* Top Header Section */
 .elementor {
   background-color: transparent;
@@ -77,11 +82,6 @@ a {
   .test-monial {
     background-size: cover;
   }
-}
-
-/* Wrapper container */
-.container {
-  @apply !max-w-screen-2xl mx-auto px-5;
 }
 
 /* button color image */
