@@ -38,9 +38,6 @@ function Payment() {
               <div className="py-1 px-[12px] rounded-md bg-btn2">
                 <FaStripe size={45} />
               </div>
-              {/* <BsArrowRight size={18} />
-            <BsArrowRight size={18} />
-            <BsArrowRight size={18} /> */}
             </div>
           </div>
           {/* Right side */}
