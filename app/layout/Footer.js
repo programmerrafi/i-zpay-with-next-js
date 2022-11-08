@@ -46,12 +46,4 @@ const Footer = () => {
   );
 };
 
-// const FooterLink = ({ href = "#", text }) => (
-//   <li>
-//     <Link href={href}>
-//       <a href={href}>{text}</a>
-//     </Link>
-//   </li>
-// )
-
 export default Footer;
