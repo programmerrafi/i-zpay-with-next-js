@@ -13,9 +13,9 @@ import Title from "../components/shared/Title";
 
 const Footer = () => {
   return (
-    <footer className="bg-blackSecondary text-colorWhite pt-6 pb-10">
+    <footer className="bg-blackSecondary text-colorWhite pt-6">
       <div className="container">
-        <div className="flex flex-wrap md:flex-nowrap justify-between items-center">
+        <div className="flex flex-wrap md:flex-nowrap justify-between items-center border-b border-gray-700 pb-16">
           {/* Left */}
           <div className="w-[30%]">
             <Link href="/">
@@ -76,6 +76,15 @@ const Footer = () => {
               </div>
             </div>
           </div>
+        </div>
+        {/* author */}
+        <div className="flex justify-between py-10">
+          <h1 className="text-whiteGray text-xs font-[300] leading-7 ml-1">
+            Izpay by Jegtheme
+          </h1>
+          <h1 className="text-whiteGray text-xs font-[300] leading-7 ml-1">
+            Copyright © 2022. All rights reserved.
+          </h1>
         </div>
       </div>
     </footer>
