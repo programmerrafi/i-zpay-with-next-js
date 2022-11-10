@@ -74,7 +74,6 @@ const Footer = () => {
                 <FaLinkedinIn size={22} className="text-colorText" />
                 <BsInstagram size={22} className="text-colorText" />
               </div>
-              <h1 className="text-xl bg-red-500 text-center">Heloo text</h1>
             </div>
           </div>
         </div>
