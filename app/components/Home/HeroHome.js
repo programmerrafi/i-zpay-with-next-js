@@ -4,7 +4,7 @@ import Image from "next/image";
 
 function HeroHome() {
   return (
-    <div className="bg-blackSecondary relative -mt-24 pt-40 ">
+    <div className="bg-blackSecondary relative pt-40 ">
       <div className="elementor"></div>
       <div className="flex  justify-between container relative z-40">
         {/* Left Info */}
