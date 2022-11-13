@@ -34,10 +34,10 @@ function ManageSection() {
             {/* Cart */}
             <ManageCart
               title="User Friendly"
-              icon={<GiShakingHands size={40} />}
+              icon={<GiShakingHands size={46} />}
             />
-            <ManageCart title="Best Support" icon={<BiSupport size={40} />} />
-            <ManageCart title="Secure" icon={<GoLock size={40} />} />
+            <ManageCart title="Best Support" icon={<BiSupport size={46} />} />
+            <ManageCart title="Secure" icon={<GoLock size={46} />} />
           </div>
         </div>
       </div>

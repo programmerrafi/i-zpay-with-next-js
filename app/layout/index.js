@@ -5,7 +5,7 @@ import Navbar from "./Navbar/Navbar";
 
 const Layout = ({ children }) => {
   return (
-    <div className="">
+    <div className="bg-blackSecondary w-full h-full">
       <Navbar />
       <main>{children}</main>
       <Footer />

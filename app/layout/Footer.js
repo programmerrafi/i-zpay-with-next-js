@@ -32,11 +32,17 @@ const Footer = () => {
               One Application for Every Payment
             </h1>
             <div className="flex items-center gap-8 mt-4">
-              <AiFillApple size={35} className="text-colorText" />
-              <FaGooglePlay size={35} className="text-colorText" />
+              <AiFillApple
+                size={35}
+                className="text-colorText hover:text-btnSecondary transition-all"
+              />
+              <FaGooglePlay
+                size={35}
+                className="text-colorText hover:text-btnSecondary transition-all"
+              />
               <RiCharacterRecognitionFill
                 size={35}
-                className="text-colorText"
+                className="text-colorText hover:text-btnSecondary transition-all"
               />
             </div>
           </div>
@@ -69,10 +75,22 @@ const Footer = () => {
               />
               <div className="flex items-center gap-6 mt-4">
                 {/* icons */}
-                <AiFillFacebook size={22} className="text-colorText" />
-                <AiOutlineTwitter size={22} className="text-colorText" />
-                <FaLinkedinIn size={22} className="text-colorText" />
-                <BsInstagram size={22} className="text-colorText" />
+                <AiFillFacebook
+                  size={22}
+                  className="text-colorText hover:text-btnSecondary transition-all"
+                />
+                <AiOutlineTwitter
+                  size={22}
+                  className="text-colorText hover:text-btnSecondary transition-all"
+                />
+                <FaLinkedinIn
+                  size={22}
+                  className="text-colorText hover:text-btnSecondary transition-all"
+                />
+                <BsInstagram
+                  size={22}
+                  className="text-colorText hover:text-btnSecondary transition-all"
+                />
               </div>
             </div>
           </div>

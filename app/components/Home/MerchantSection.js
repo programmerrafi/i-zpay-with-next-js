@@ -25,7 +25,7 @@ function MerchantSection() {
           </div>
           {/* Right side */}
           <div className="w-[80%] relative mx-auto md:mx-0 md:w-[45%]">
-            <div className="absolute -left-12 bottom-0 z-10 shadowBox">
+            <div className="absolute -left-12 bottom-0 z-10 shadowBox elementor-animation-bob">
               <img
                 src="/images/Last-Costslast-cost.png"
                 className="w-full object-contain"
@@ -44,7 +44,7 @@ function MerchantSection() {
                 className="w-full h-full overflow-hidden"
               />
             </div>
-            <div className="h-[115%] p-4 absolute -bottom-10 -right-14">
+            <div className="h-[115%] p-4 absolute -bottom-10 -right-14 elementor-animation-bob">
               <img
                 src="/icons/shopping-icon-home.png"
                 className="h-full object-contain"

@@ -26,23 +26,23 @@ function Payment() {
               Supported Payment :
             </p>
             <div className="flex gap-8">
-              <div className="py-1 px-[12px] rounded-md bg-btn2">
+              <div className="py-1 px-[12px] rounded-md bg-btn2 hover:-translate-y-2 transition-all cursor-pointer">
                 <FaCcMastercard size={45} />
               </div>
-              <div className="py-1 px-[12px] rounded-md bg-btn2">
+              <div className="py-1 px-[12px] rounded-md bg-btn2 hover:-translate-y-2 transition-all cursor-pointer">
                 <RiVisaLine size={45} />
               </div>
-              <div className="py-1 px-[12px] rounded-md bg-btn2">
+              <div className="py-1 px-[12px] rounded-md bg-btn2 hover:-translate-y-2 transition-all cursor-pointer">
                 <BsPaypal size={45} />
               </div>
-              <div className="py-1 px-[12px] rounded-md bg-btn2">
+              <div className="py-1 px-[12px] rounded-md bg-btn2 hover:-translate-y-2 transition-all cursor-pointer">
                 <FaStripe size={45} />
               </div>
             </div>
           </div>
           {/* Right side */}
           <div className="w-[80%] relative mx-auto md:mx-0 md:w-[45%]">
-            <div className="absolute -left-12 bottom-0 z-10 !w-[220px] shadowBox">
+            <div className="absolute -left-12 bottom-0 z-10 !w-[220px] shadowBox elementor-animation-bob">
               <img
                 src="/images/Last-Operation1.png"
                 className="w-full object-contain"
@@ -61,7 +61,7 @@ function Payment() {
                 className="w-full h-full overflow-hidden"
               />
             </div>
-            <div className="h-[95%] p-4 absolute bottom-12 -right-32">
+            <div className="h-[95%] p-4 absolute bottom-12 -right-32 elementor-animation-bob">
               <img
                 src="/images/payment-icon-home.png"
                 className="h-full object-contain"

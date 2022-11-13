@@ -28,7 +28,7 @@ function HeroHome() {
         </div>
         {/* Right Images */}
         <div className="relative w-[50%]">
-          <div className="absolute right-16 -top-14 z-10">
+          <div className="absolute right-16 -top-14 z-10 elementor-animation-bob">
             <Image
               src="/images/Efficiencydark-1.png"
               width="400"

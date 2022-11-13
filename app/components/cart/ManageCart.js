@@ -3,7 +3,7 @@ import React from "react";
 function ManageCart({ title, icon }) {
   return (
     <div className="flex items-center gap-8 mt-8 mb-10 shadow-md">
-      <div className="w-24 h-24 rounded-full bg-colorText text-colorWhite flex items-center justify-center">
+      <div className="w-24 h-24 rounded-full bg-colorText text-colorWhite flex items-center justify-center hover:scale-110 transition-all">
         {icon}
       </div>
       <div className=" w-[70%]">
