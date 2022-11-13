@@ -10,6 +10,7 @@ import { FaGooglePlay } from "react-icons/fa";
 import { RiCharacterRecognitionFill } from "react-icons/ri";
 import Text from "../components/shared/Text";
 import Title from "../components/shared/Title";
+import Icons from "../components/shared/Icons";
 
 const Footer = () => {
   return (
@@ -32,18 +33,9 @@ const Footer = () => {
               One Application for Every Payment
             </h1>
             <div className="flex items-center gap-8 mt-4">
-              <AiFillApple
-                size={35}
-                className="text-colorText hover:text-btnSecondary transition-all"
-              />
-              <FaGooglePlay
-                size={35}
-                className="text-colorText hover:text-btnSecondary transition-all"
-              />
-              <RiCharacterRecognitionFill
-                size={35}
-                className="text-colorText hover:text-btnSecondary transition-all"
-              />
+              <Icons name={AiFillApple} size={35} />
+              <Icons name={FaGooglePlay} size={35} />
+              <Icons name={RiCharacterRecognitionFill} size={35} />
             </div>
           </div>
           {/* Right */}
@@ -75,22 +67,10 @@ const Footer = () => {
               />
               <div className="flex items-center gap-6 mt-4">
                 {/* icons */}
-                <AiFillFacebook
-                  size={22}
-                  className="text-colorText hover:text-btnSecondary transition-all"
-                />
-                <AiOutlineTwitter
-                  size={22}
-                  className="text-colorText hover:text-btnSecondary transition-all"
-                />
-                <FaLinkedinIn
-                  size={22}
-                  className="text-colorText hover:text-btnSecondary transition-all"
-                />
-                <BsInstagram
-                  size={22}
-                  className="text-colorText hover:text-btnSecondary transition-all"
-                />
+                <Icons name={AiFillFacebook} />
+                <Icons name={AiOutlineTwitter} />
+                <Icons name={FaLinkedinIn} />
+                <Icons name={BsInstagram} />
               </div>
             </div>
           </div>
