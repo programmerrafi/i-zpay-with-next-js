@@ -14,7 +14,7 @@ const DropDownLI = ({ text }) => {
     }
   };
   return (
-    <li className="sub-menu-head" onClick={handleToggel}>
+    <li className="sub-menu-head lg:py-[18px]" onClick={handleToggel}>
       <Link href="#">
         <a
           href="#"

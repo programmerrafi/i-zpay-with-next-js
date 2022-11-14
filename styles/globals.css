@@ -128,7 +128,6 @@ a {
 }
 .sub-menu-head {
   position: relative;
-  padding: 1.2rem 0;
   transition: all 0.6s ease;
   -webkit-transition: all 0.6s ease;
   -moz-transition: all 0.6s ease;
@@ -140,7 +139,6 @@ a {
   position: absolute;
   left: 0;
   top: 4rem;
-  background-color: #151518;
   opacity: 0;
   padding: 0.5rem 0;
   visibility: hidden;
@@ -194,72 +192,11 @@ a {
   -ms-transform: rotate(180deg);
   -o-transform: rotate(180deg);
 }
-/* @media screen and (min-width: 900px) {
-  .btn-disable {
-    display: none !important;
-  }
-  .unactive {
-    display: none !important;
-  }
-}
-@media screen and (max-width: 900px) {
-  .container {
-    max-width: 600px;
-    padding: 0 20px;
-    margin: auto;
-  }
-  .navbar-header > .active {
-    display: none;
-  }
-  .nav-menu {
-    background-color: var(--text-color);
-    position: absolute;
-    top: 20%;
-    left: 50%;
-    transform: translate(-50%);
-    -webkit-transform: translate(-50%);
-    -moz-transform: translate(-50%);
-    -ms-transform: translate(-50%);
-    -o-transform: translate(-50%);
-    border-radius: 1rem;
-    -webkit-border-radius: 0.5rem;
-    -moz-border-radius: 0.5rem;
-    -ms-border-radius: 0.5rem;
-    -o-border-radius: 0.5rem;
-  }
-  .main-menu li a {
-    color: var(--primary-color);
-  }
-  .nav-menu .main-menu li {
-    padding: 1rem 1rem;
-  }
-  .toggel-logo {
-    padding: 1rem 3.5rem;
-  }
-  .toggel-logo .close {
-    font-size: 2rem;
-    cursor: pointer;
-  }
-  .main-menu {
-    width: 56rem;
-    display: flex;
-    flex-direction: column;
-  }
-  .nav_logo {
-    padding: 15px 0;
-  }
-  .toggel-button .nav-toggel-button {
-    font-size: 2.7rem;
-    cursor: pointer;
-    color: var(--text-color);
-  }
-  .sub-menu-head a .arrow {
-    color: var(--primary-color);
-  }
+@media screen and (max-width: 1024px) {
+  /* TODO: Edit here now that */
   .sub-menu-head .sub-menu {
     position: unset;
     width: 100%;
-    background-color: #fff;
     opacity: 1;
     visibility: visible;
     transform: translate(0%);
@@ -269,17 +206,11 @@ a {
     -o-transform: translate(0%);
     display: none;
   }
-  .sub-menu-head .sub-menu li {
-    border-bottom: 1px solid #ebedf3;
-  }
-  .sub-menu-head .sub-menu li a {
-    color: var(--primary-color);
-  }
   .toggel-button {
     display: block !important;
   }
 }
-@media only screen and (max-width: 650px) {
+/* @media only screen and (max-width: 650px) {
   .nav-menu {
     width: 90%;
   }
@@ -296,8 +227,8 @@ a {
     color: var(--text-color);
     margin-bottom: 4rem;
   }
-}
-@media only screen and (max-width: 450px) {
+} */
+/* @media only screen and (max-width: 450px) {
   .nav-menu {
     width: 90%;
   }
@@ -321,7 +252,7 @@ a {
     font-weight: 400;
     margin-bottom: 1rem;
   }
-} */
+}  */
 /* =================Navbar end======================== */
 
 /* ================= Animation Start ======================== */

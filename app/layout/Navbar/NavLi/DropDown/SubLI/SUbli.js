@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const SUbli = ({ pages, navToggele, page }) => {
   return (
-    <ul className={`sub-menu  ${page && navToggele} `}>
+    <ul className={`sub-menu lg:bg-bgMain ${page && navToggele} `}>
       {pages.map((menu) => {
         return (
           <li key={menu.id}>

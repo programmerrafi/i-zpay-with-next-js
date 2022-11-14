@@ -19,15 +19,19 @@ const Navbar = () => {
     }
     // console.log(window.scrollY);
   };
-  console.log(open);
-  // useEffect(() => {
-  //   window.addEventListener("scroll", nav);
-  //   return () => {
-  //     window.removeEventListener("scroll", nav);
-  //   };
-  // }, []);
+
+  useEffect(() => {
+    window.addEventListener("scroll", nav);
+    return () => {
+      window.removeEventListener("scroll", nav);
+    };
+  }, []);
   return (
-    <header className="fixed top-0 z-[10000] w-full">
+    <header
+      className={`fixed top-0 z-[10000] w-full ${
+        navbar && "bg-blackSecondary"
+      }`}
+    >
       <nav className={""}>
         <div className="container">
           <div className="flex justify-between items-center w-full py-3">
@@ -54,8 +58,8 @@ const Navbar = () => {
             <div
               className={`${
                 !open &&
-                "absolute bg-teal-700 right-[990px] lg:right-0 transition-all duration-200 ease-in-out lg:duration-[0ms] z-[1000]"
-              } absolute top-0 right-0 bg-slate-800 lg:relative lg:top-0 z-[999] lg:justify-between w-screen h-screen lg:h-auto flex-col flex lg:flex lg:w-auto lg:order-1 lg:bg-transparent transition-all duration-700 ease-in-out lg:duration-[0ms]`}
+                "absolute bg-teal-700 left-[-990px] lg:left-0 transition-all duration-200 ease-in-out lg:duration-[0ms] z-[1000]"
+              } absolute top-0 left-0 bg-slate-800 lg:relative lg:top-0 z-[999] lg:justify-between w-screen h-screen lg:h-auto flex-col flex lg:flex lg:w-auto lg:order-1 lg:bg-transparent transition-all duration-700 ease-in-out lg:duration-[0ms]`}
               id="mobile-menu-4"
             >
               {/* ====Menu Close Icon ==== */}
