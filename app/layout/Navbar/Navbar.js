@@ -60,17 +60,23 @@ const Navbar = () => {
               <div
                 className={`${
                   !open &&
-                  "absolute bg-teal-700 left-[-350px] lg:left-0 transition-all duration-[200ms] ease-in-out lg:duration-[0ms] z-[1000]"
-                } absolute top-0 left-0 bg-black3 lg:relative lg:top-0 z-[999] lg:justify-between w-[350px] h-screen lg:h-auto flex-col flex lg:flex lg:w-auto lg:order-1 lg:bg-transparent transition-all duration-[1500ms] ease-in-out lg:duration-[0ms]`}
-                // id="mobile-menu-4"
+                  "absolute bg-teal-700 left-[-350px] lg:!left-0 transition-all lg:!transition-none !duration-[200ms] ease-in-out lg:!duration-[0ms] z-[1000]"
+                } absolute top-0 left-0 bg-black3 lg:relative lg:top-0 z-[999] lg:justify-between w-[350px] h-screen lg:h-auto flex-col flex lg:flex lg:w-auto lg:order-1 lg:bg-transparent transition-all duration-[1500ms] lg:!transition-none ease-in-out lg:!duration-[0ms]`}
               >
-                {/* ==== Menu Close Icon ==== */}
-                <div
-                  className="cursor-pointer text-white lg:hidden flex justify-end w-full p-8"
-                  onClick={() => setOpen(false)}
-                >
-                  <AiOutlineClose size={29} />
+                {/* ==== Menu Close Icon & Menu Logo==== */}
+                <div className="flex lg:hidden py-8 px-4 justify-between">
+                  <img
+                    src="/icons/nav-logo.png"
+                    className="w-20 object-contain"
+                  />
+                  <div
+                    className="cursor-pointer text-colorText lg:hidden flex justify-end p-4"
+                    onClick={() => setOpen(false)}
+                  >
+                    <AiOutlineClose size={20} />
+                  </div>
                 </div>
+                {/* Nav Menu */}
                 <div className={`nav-menu`}>
                   <ul className="main-menu pl-10 lg:pl-0 flex-col lg:flex-row lg:flex lg:items-center lg:flex-wrap gap-7 space-y-10 lg:space-y-0">
                     <NavLi text="HOME" />
@@ -93,8 +99,8 @@ const Navbar = () => {
               <div
                 className={`${
                   !open &&
-                  "absolute bg-teal-700 left-[-990px] lg:left-0 transition-all duration-[1200ms] ease-in-out lg:duration-[0ms] z-[995]"
-                } absolute top-0 left-0 bg-slate-800 opacity-60 lg:relative lg:top-0 z-[994] lg:justify-between w-screen h-screen lg:h-auto flex-col flex lg:flex lg:w-auto lg:order-1 lg:bg-transparent transition-all duration-[600ms] ease-in-out lg:duration-[0ms]`}
+                  "absolute bg-teal-700 left-[-1020px] lg:left-0 transition-all lg:!transition-none !duration-[1200ms] ease-in-out lg:!duration-[0ms] z-[995]"
+                } absolute top-0 left-0 bg-slate-800 opacity-60 lg:relative lg:top-0 z-[994] lg:justify-between w-screen h-screen lg:h-auto flex-col flex lg:flex lg:w-auto lg:order-1 lg:bg-transparent transition-all lg:!transition-none duration-[600ms] ease-in-out lg:!duration-[0ms]`}
                 onClick={() => setOpen(false)}
               ></div>
             </div>
