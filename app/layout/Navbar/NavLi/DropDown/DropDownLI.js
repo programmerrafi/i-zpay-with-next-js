@@ -13,6 +13,8 @@ const DropDownLI = ({ text }) => {
       setnavToggele("");
     }
   };
+  console.log(navToggele);
+
   return (
     <li className="sub-menu-head lg:py-[18px]" onClick={handleToggel}>
       <Link href="#">
