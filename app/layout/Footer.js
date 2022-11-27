@@ -1,16 +1,13 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import { AiFillApple } from "react-icons/ai";
-import { AiFillFacebook } from "react-icons/ai";
-import { AiOutlineTwitter } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+import { AiFillApple, AiFillFacebook, AiOutlineTwitter } from "react-icons/ai";
 import { BsInstagram } from "react-icons/bs";
-import { FaGooglePlay } from "react-icons/fa";
+import { FaGooglePlay, FaLinkedinIn } from "react-icons/fa";
 import { RiCharacterRecognitionFill } from "react-icons/ri";
+import Icons from "../components/shared/Icons";
 import Text from "../components/shared/Text";
 import Title from "../components/shared/Title";
-import Icons from "../components/shared/Icons";
 
 const Footer = () => {
   return (
@@ -78,7 +75,7 @@ const Footer = () => {
         {/* author */}
         <div className="flex justify-between py-10">
           <h1 className="text-whiteGray text-xs font-[300] leading-7 ml-1">
-            Izpay by Jegtheme
+            Izpay by Md Rafi
           </h1>
           <h1 className="text-whiteGray text-xs font-[300] leading-7 ml-1">
             Copyright © 2022. All rights reserved.

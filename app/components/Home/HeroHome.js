@@ -6,9 +6,9 @@ function HeroHome() {
   return (
     <div className="bg-blackSecondary relative pt-40 ">
       <div className="elementor"></div>
-      <div className="flex  justify-between container relative z-40">
+      <div className="flex justify-between flex-wrap lg:flex-nowrap container relative z-40">
         {/* Left Info */}
-        <div className="flex flex-col justify-center w-[60%]">
+        <div className="flex flex-col justify-center lg:w-[60%] order-10 lg:order-9">
           <h1 className="text-6xl font-semibold text-colorWhite mb-12">
             <span className="text-colorText">EASIEST </span>PAYMENT <br />
             METHOD EVER
@@ -27,7 +27,7 @@ function HeroHome() {
           </div>
         </div>
         {/* Right Images */}
-        <div className="relative w-[50%]">
+        <div className="relative lg:w-[50%] order-9 lg:order-10">
           <div className="absolute right-16 -top-14 z-10 elementor-animation-bob">
             <Image
               src="/images/Efficiencydark-1.png"
