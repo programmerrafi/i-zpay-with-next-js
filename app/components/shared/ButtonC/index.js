@@ -4,7 +4,7 @@ function ButtonC({ title, className, width, text, ...rest }) {
   return (
     <button
       className={` 
-        px-6 py-4 text-colorWhite font-medium
+        px-8 py-4 text-colorWhite font-medium
         rounded-full cursor-pointer
         bg-colorText hover:text-white
         hover:bg-btn2

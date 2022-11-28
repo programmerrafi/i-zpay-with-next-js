@@ -38,13 +38,24 @@ const Navbar = () => {
             <div className="flex justify-between items-center w-full py-3">
               {/* Logo */}
               <Link href="/">
-                <a href="/" className="w-[200px] lg:w-auto">
+                <a
+                  href="/"
+                  className="lg:w-[155px] lg:h-[55px] hidden md:block"
+                >
                   <Image
                     src="/icons/logo.png"
-                    width="160"
-                    height="55"
+                    width="195"
+                    height="75"
                     objectFit="contain"
                   />
+                </a>
+              </Link>
+              <Link href="/">
+                <a
+                  href="/"
+                  className="w-[65px] sm:w-[90px] block md:hidden object-contain"
+                >
+                  <img src="/icons/logo-mobile.png" className="w-full h-full" />
                 </a>
               </Link>
               {/* Menu */}
