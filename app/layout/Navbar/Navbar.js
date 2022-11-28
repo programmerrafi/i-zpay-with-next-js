@@ -38,7 +38,7 @@ const Navbar = () => {
             <div className="flex justify-between items-center w-full py-3">
               {/* Logo */}
               <Link href="/">
-                <a href="/">
+                <a href="/" className="w-[200px] lg:w-auto">
                   <Image
                     src="/icons/logo.png"
                     width="160"
@@ -99,7 +99,7 @@ const Navbar = () => {
               <div
                 className={`${
                   !open &&
-                  "absolute bg-teal-700 left-[-1020px] lg:left-0 transition-all lg:!transition-none !duration-[1200ms] ease-in-out lg:!duration-[0ms] z-[995]"
+                  "absolute lg:hidden bg-teal-700 left-[-1020px] lg:left-0 transition-all lg:!transition-none !duration-[1200ms] ease-in-out lg:!duration-[0ms] z-[995]"
                 } absolute top-0 left-0 bg-slate-800 opacity-60 lg:relative lg:top-0 z-[994] lg:justify-between w-screen h-screen lg:h-auto flex-col flex lg:flex lg:w-auto lg:order-1 lg:bg-transparent transition-all lg:!transition-none duration-[600ms] ease-in-out lg:!duration-[0ms]`}
                 onClick={() => setOpen(false)}
               ></div>
