@@ -57,7 +57,7 @@ const LogoSlide = () => {
     ],
   };
   return (
-    <section className="logo_slide bg-bgMain p-20">
+    <section className="logo_slide bg-bgMain lg:p-20">
       <div className="container">
         <Slider {...settings}>
           {imgs.map((img) => {
