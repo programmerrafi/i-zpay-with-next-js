@@ -32,7 +32,7 @@ function HeroHome() {
         {/* Right Images  */}
         {/* right-56 */}
         <div className="relative lg:w-[50%] md:w-[76.5%] -mt-4 sm:mt-0 w-full mx-auto order-9 lg:order-10">
-          <div className="absolute hidden md:block w-[320px] h-[160px] lg:w-auto lg:h-auto left-1/2 -translate-x-1/2 lg:left-auto lg:-translate-x-0 lg:right-16 lg:-top-14 top-2 z-10 elementor-animation-bob">
+          <div className="absolute hidden md:block w-[320px] h-[160px] lg:w-auto lg:h-auto left-40 lg:left-auto lg:-translate-x-0 lg:right-16 lg:-top-14 top-2 z-10 elementor-animation-bob">
             <Image
               src="/images/Efficiencydark-1.png"
               width="400"
