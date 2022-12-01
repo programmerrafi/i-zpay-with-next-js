@@ -25,25 +25,15 @@ export const pages = [
     text: "Services Details",
   },
 ];
-export const service = [
+export const contacts = [
   {
     id: 1,
     url: "/webdesign",
-    text: "Web Design",
+    text: "CONTACT US-1",
   },
   {
     id: 2,
     url: "/graphics ",
-    text: "Graphics ",
-  },
-  {
-    id: 3,
-    url: "/development",
-    text: "Web Development",
-  },
-  {
-    id: 4,
-    url: "/app",
-    text: "App Development",
+    text: "CONTACT US-2",
   },
 ];
