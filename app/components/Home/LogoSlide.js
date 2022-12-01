@@ -33,7 +33,7 @@ const LogoSlide = () => {
       {
         breakpoint: 767,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 3,
           slidesToScroll: 1,
           infinite: true,
         },
@@ -57,7 +57,7 @@ const LogoSlide = () => {
     ],
   };
   return (
-    <section className="logo_slide bg-bgMain lg:p-20">
+    <section className="logo_slide bg-bgMain sm:py-8 lg:p-20">
       <div className="container">
         <Slider {...settings}>
           {imgs.map((img) => {

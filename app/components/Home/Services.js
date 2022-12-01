@@ -14,10 +14,10 @@ function Services() {
       <div className="container relative z-50">
         {/* title */}
         <div className="text-center mb-20">
-          <h1 className="text-[45px] font-semibold text-colorWhite mb-8 leading-tight">
+          <h1 className="md:text-[45px] text-[30px] font-semibold text-colorWhite mb-8 leading-tight">
             Our Service
           </h1>
-          <p className="text-sm text-whiteGray mb-10 leading-6">
+          <p className="text-sm text-whiteGray mb-10 leading-6 md:font-normal font-thin">
             Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
             <br /> aut fugit, sed quia consequuntur magni dolores eos qui
             ratione.

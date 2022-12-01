@@ -7,7 +7,7 @@ import { GiShakingHands } from "react-icons/gi";
 
 function ManageSection() {
   return (
-    <section className="bg-bgMain py-12 sm:py-20">
+    <section className="bg-bgMain pt-12 pb-6 sm:py-14 lg:py-20">
       <div className="container">
         <div className="flex lg:flex-nowrap flex-wrap gap-12 lg:gap-24">
           {/* Left side */}
