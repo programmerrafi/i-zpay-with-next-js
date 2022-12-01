@@ -26,7 +26,7 @@ a {
 
 /* Wrapper container */
 .container {
-  @apply !max-w-screen-2xl mx-auto px-5;
+  @apply !max-w-[1290px] mx-auto px-5 lg:px-0;
 }
 
 /* Top Header Section */
@@ -135,12 +135,12 @@ a {
   -o-transition: all 0.6s ease;
 }
 .sub-menu-head .sub-menu {
-  width: 20rem;
+  width: max-content;
   position: absolute;
   left: 0;
   top: 4rem;
   opacity: 0;
-  padding: 0.5rem 0;
+  padding: 0.9rem 0.5rem;
   visibility: hidden;
   border-radius: 0.5rem;
   -webkit-border-radius: 0.5rem;
@@ -157,9 +157,6 @@ a {
   -moz-transform: translate(-40%);
   -ms-transform: translate(-40%);
   -o-transform: translate(-40%);
-}
-.sub-menu-head .sub-menu li {
-  padding: 1rem 1rem;
 }
 .sub-menu-head .sub-menu li a {
   color: var(--grayPrimary);
@@ -210,49 +207,6 @@ a {
     display: block !important;
   }
 }
-/* @media only screen and (max-width: 650px) {
-  .nav-menu {
-    width: 90%;
-  }
-  .section-info h1 {
-    font-size: 4rem;
-    color: var(--text-color);
-    line-height: 5.5rem;
-    margin-bottom: 2rem;
-  }
-  .section-info p {
-    font-size: 1.6rem;
-    font-weight: 500;
-    line-height: 2.6rem;
-    color: var(--text-color);
-    margin-bottom: 4rem;
-  }
-} */
-/* @media only screen and (max-width: 450px) {
-  .nav-menu {
-    width: 90%;
-  }
-  .section-info h1 {
-    font-size: 3.5rem;
-    color: var(--text-color);
-    font-weight: 400;
-    line-height: 5rem;
-    margin-bottom: 2rem;
-  }
-  .section-info p {
-    font-size: 1.5rem;
-    font-weight: 400;
-    line-height: 2.6rem;
-    color: var(--text-color);
-    margin-bottom: 4rem;
-  }
-  .section-info h2 {
-    color: var(--text-color);
-    font-size: 1.7rem;
-    font-weight: 400;
-    margin-bottom: 1rem;
-  }
-}  */
 /* =================Navbar end======================== */
 
 /* ================= Animation Start ======================== */

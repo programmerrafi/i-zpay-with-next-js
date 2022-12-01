@@ -6,9 +6,11 @@ const SUbli = ({ pages, navToggele, page }) => {
     <ul className={`sub-menu lg:bg-bgMain ${page && navToggele} `}>
       {pages.map((menu) => {
         return (
-          <li key={menu.id}>
+          <li key={menu.id} className="p-3">
             <Link href="#">
-              <a href="#">{menu.text}</a>
+              <a href="#" className="font-normal">
+                {menu.text}
+              </a>
             </Link>
           </li>
         );

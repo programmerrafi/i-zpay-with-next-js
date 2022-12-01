@@ -8,7 +8,7 @@ import { FaStripe } from "react-icons/fa";
 
 function Payment() {
   return (
-    <section className="bg-bgMain pb-14 pt-4 md:pb-20 md:pt-16">
+    <section className="bg-bgMain pb-20 pt-4 md:pb-20 md:pt-16">
       <div className="container">
         <div className="flex lg:flex-nowrap flex-wrap gap-8 md:gap-22 lg:gap-32">
           {/* Left Side */}

@@ -3,7 +3,7 @@ import { BsArrowRight } from "react-icons/bs";
 
 function ServiceCart({ title, icon }) {
   return (
-    <div className="relative card-bg border-2 w-full md:w-[410px] border-bgMain hover:border-btnSecondary !rounded-3xl p-8 !overflow-hidden cursor-pointer">
+    <div className="relative card-bg border-2 w-full md:w-[405px] border-bgMain hover:border-btnSecondary !rounded-3xl p-8 !overflow-hidden cursor-pointer">
       <div className="relative z-40">
         <div className="text-colorText mb-8">{icon}</div>
         <h1 className="text-colorText font-semibold mb-4">{title}</h1>
