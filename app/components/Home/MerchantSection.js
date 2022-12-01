@@ -4,7 +4,7 @@ import { setBackgroundImage } from "../utils/helpers";
 
 function MerchantSection() {
   return (
-    <section className="bg-bgMain pb-12 lg:pb-20 lg:pt-16">
+    <section className="bg-bgMain pb-14 lg:pb-20 lg:pt-16">
       <div className="container">
         <div className="flex lg:flex-nowrap flex-wrap gap-8 md:gap-10 lg:gap-32">
           {/* Left Side */}

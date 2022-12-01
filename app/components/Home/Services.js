@@ -9,18 +9,19 @@ import ServiceCart from "../cart/ServiceCart";
 
 function Services() {
   return (
-    <section className="bg-bgMain py-20 relative">
+    <section className="bg-bgMain pb-14 md:py-20 relative">
       <div className="service-bg absolute w-full h-full top-0 left-0"></div>
       <div className="container relative z-50">
         {/* title */}
-        <div className="text-center mb-20">
-          <h1 className="md:text-[45px] text-[30px] font-semibold text-colorWhite mb-8 leading-tight">
+        <div className="md:text-center mb-12 lg:mb-20">
+          <h1 className="md:text-[45px] text-[30px] font-semibold text-colorWhite mb-4 md:mb-8 leading-tight">
             Our Service
           </h1>
-          <p className="text-sm text-whiteGray mb-10 leading-6 md:font-normal font-thin">
-            Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
-            <br /> aut fugit, sed quia consequuntur magni dolores eos qui
-            ratione.
+          <p className="text-sm text-whiteGray mb-6 md:mb-10 leading-6 md:font-normal font-thin md:flex flex-col">
+            Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit{" "}
+            <span>
+              aut fugit, sed quia consequuntur magni dolores eos qui ratione.
+            </span>
           </p>
         </div>
         {/* Cards */}

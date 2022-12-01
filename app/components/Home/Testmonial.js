@@ -4,7 +4,7 @@ import Image from "next/image";
 
 function Testmonial() {
   return (
-    <section className="bg-bgMain py-20">
+    <section className="bg-bgMain pb-14 md:py-16 lg:py-20">
       <div className="container">
         <div className="w-full h-full test-monial">
           <div className="w-full">
@@ -17,12 +17,14 @@ function Testmonial() {
                 className="-mt-2 w-24 h-24 object-contain"
               />
             </div>
-            <h1 className="text-center text-colorWhite text-lg font-medium pt-10 pb-6 leading-7">
+            <h1 className="text-center text-colorWhite text-base md:text-lg pt-10 pb-6 leading-7 md:font-medium font-thin md:flex flex-col">
               Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque
-              <br /> laudantium, totam rem aperiam, eaque ipsa quae ab illo
-              inventore veritatis et quasi
-              <br /> architecto beatae vitae dicta sunt explicabo.
+              accusantium doloremque{" "}
+              <span>
+                laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
+                veritatis et quasi
+              </span>{" "}
+              <span>architecto beatae vitae dicta sunt explicabo.</span>
             </h1>
             <div className="flex justify-center items-center gap-6 pb-16">
               <Image
