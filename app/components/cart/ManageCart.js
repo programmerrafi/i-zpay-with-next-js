@@ -7,8 +7,10 @@ function ManageCart({ title, icon }) {
         {icon}
       </div>
       <div className=" w-[70%]">
-        <h1 className="text-xl text-colorText font-semibold mb-5">{title}</h1>
-        <p className="text-sm text-whiteGray">
+        <h1 className="md:text-xl text-lg text-colorText font-semibold mb-3 md:mb-5">
+          {title}
+        </h1>
+        <p className="text-sm text-whiteGray md:font-normal font-thin">
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
           accusantium doloremque laudantium.
         </p>

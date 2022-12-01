@@ -49,7 +49,7 @@ const LogoSlide = () => {
       {
         breakpoint: 480,
         settings: {
-          slidesToShow: 1,
+          slidesToShow: 3,
           slidesToScroll: 1,
           infinite: true,
         },
@@ -62,10 +62,14 @@ const LogoSlide = () => {
         <Slider {...settings}>
           {imgs.map((img) => {
             return (
-              <div key={img.id} className="slide_logo_img">
+              <div key={img.id} className="slide_logo_img px-3">
                 <Link href="#">
                   <a href="/" className="outline-none border-none">
-                    <img src={img.url} alt="logo" className="h-12" />
+                    <img
+                      src={img.url}
+                      alt="logo"
+                      className="h-12 object-contain"
+                    />
                   </a>
                 </Link>
               </div>
