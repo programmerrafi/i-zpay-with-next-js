@@ -9,7 +9,7 @@ function ManageSection() {
   return (
     <section className="bg-bgMain py-20">
       <div className="container">
-        <div className="flex md:flex-nowrap flex-wrap gap-24 container">
+        <div className="flex lg:flex-nowrap flex-wrap gap-24 container">
           {/* Left side */}
           <div className="w-[80%] mx-auto md:mx-0 md:w-[50%]">
             <Image
