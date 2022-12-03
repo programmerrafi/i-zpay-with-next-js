@@ -113,14 +113,6 @@ a {
 /* ===============Logo Slide end======================= */
 
 /* ===============Navbar======================= */
-
-.navActive {
-  background-color: #6b5eff;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 1000;
-}
 .nav-menu .main-menu li {
   color: #f4f4f4;
   font-size: 14px;
